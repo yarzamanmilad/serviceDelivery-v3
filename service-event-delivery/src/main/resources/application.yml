@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    url: jdbc:oracle:thin:@//172.18.50.140:1521/USDPB2CPDB
+    password: pass123
+    username: USSD_MIGRATE_CRM
+  jpa:
+    hibernate:
+      ddl-auto: none
+
+
+  rabbitmq:
+    host: 172.18.60.164
+    port: 5789
+    password: guest
+    username: guest
+
